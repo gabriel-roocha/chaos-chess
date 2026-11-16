@@ -1,0 +1,13 @@
+{
+  "name": "chaos-chess",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @chaos-chess/web",
+    "build": "npm run build -w @chaos-chess/web",
+    "test": "npm run test -w @chaos-chess/engine"
+  }
+}
